@@ -1,4 +1,4 @@
-package main
+package server
 
 import "fmt"
 
@@ -28,6 +28,11 @@ func PrintBoard(board [][]string) { //prints the given board
 	fmt.Println()
 }
 
+/*
+func WriteBoard(board [][]string) {
+
+}
+*/
 func InitPieces() []Pair {
 	var pieces []Pair
 	pair := Pair{0, 0, "L1"}
